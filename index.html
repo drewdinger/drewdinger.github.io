@@ -8,6 +8,11 @@
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  	  <meta property="og:url"           content="http://drewdinger.github.io/index.html" />
+  	  <meta property="og:type"          content="website" />
+  	  <meta property="og:title"         content="Andrew Krodinger" />
+  	  <meta property="og:description"   content="Personal Website" />
+  	  <meta property="og:image"         content="http://drewdinger.github.io/images/usmc.jpg" />
     </head>
 	<style>
 
@@ -24,19 +29,21 @@
 
 	</style>
     <body>
-    	<div id="fb-root">
-    	</div>
+    	<div id="fb-root"></div>
 		<script>(function(d, s, id) {
-  		var js, fjs = d.getElementsByTagName(s)[0];
-  		if (d.getElementById(id)) return;
-  		js = d.createElement(s); js.id = id;
-  		js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
-  		fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-		</script>
+  			var js, fjs = d.getElementsByTagName(s)[0];
+  			if (d.getElementById(id)) return;
+  			js = d.createElement(s); js.id = id;
+  			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
+  			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
         <script src="https://cdn.firebase.com/js/client/2.3.2/firebase.js"></script>
+
+        <!-- Comment #4: Plugin Code -->
+  		<div class="fb-quote"></div>
 
 		<nav>
 			<div class="nav-wrapper blue-grey darken-3">
