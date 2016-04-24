@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700&subset=latin,cyrillic-ext);
+/*html {
+	background-color: #fff;
+	font-family: 'Roboto Slab', serif;
+	sx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	color: #1a1a1a;
+}
+html, body {
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}*/
+
+.container {
+  width: 90%;
+}
+.slider .indicators .indicator-item.active {
+  background-color: #ff9100;
+  }
+  
+.slider .indicators .indicator-item {
+  background-color: #666666;
+  border: 1px solid #ffffff;
+  }
+
+.background {
+    background: url(klematis.jpg) repeat;
+    border: 2px solid black;
+}
+
+.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+.transbox p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
