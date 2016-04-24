@@ -42,3 +42,12 @@ html, body {
     font-weight: bold;
     color: #000000;
 }
+
+img {
+   width: auto;
+   max-height: 100%;
+}
+
+.imgContainer{
+    float:left;
+}
