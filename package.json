@@ -1,0 +1,7 @@
+{
+  "name": "Andrew Krodinger",
+  "version": "1.0.0",
+  "local-web-server": {
+    "port": 8000
+  }
+}
