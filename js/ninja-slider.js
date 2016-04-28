@@ -6,12 +6,12 @@ var nsOptions =
     autoAdvance: true,
     delay: 4000,
     transitionSpeed: 1000,
-    aspectRatio: "2:1",
+    aspectRatio: "9:6",
     initSliderByCallingInitFunc: false,
     shuffle: false,
     startSlideIndex: 0, //0-based
     navigateByTap: true,
-    pauseOnHover: false,
+    pauseOnHover: true,
     keyboardNav: true,
     before: null,
     license: "mylicense"

@@ -94,21 +94,21 @@
 }
 
 @keyframes titleAnimation { 
-	0% { opacity:0; }
-	10% { opacity:0;transform: translateY(-20%);}
-	20% { opacity:1;transform: translateY(0%);}
-	70% {opacity:1;transform: translateY(0%);}
-	80% {opacity:0;transform: translateY(100%);}
-	100% {opacity:0;transform: translateY(100%);}
+    0% { opacity:0; }
+    10% { opacity:0;transform: translateY(-20%);}
+    20% { opacity:1;transform: translateY(0%);}
+    70% {opacity:1;transform: translateY(0%);}
+    80% {opacity:0;transform: translateY(100%);}
+    100% {opacity:0;transform: translateY(100%);}
 }
 
 @-webkit-keyframes titleAnimation { 
-	0% { opacity:0; }
-	10% { opacity:0; -webkit-transform:translateY(-20%);}
-	25% { opacity:1; -webkit-transform:translateY(0%);}
-	70% {opacity:1; -webkit-transform:translateY(0%);}
-	80% {opacity:0; -webkit-transform:translateY(100%);}
-	100% {opacity:0; -webkit-transform:translateY(100%);}
+    0% { opacity:0; }
+    10% { opacity:0; -webkit-transform:translateY(-20%);}
+    25% { opacity:1; -webkit-transform:translateY(0%);}
+    70% {opacity:1; -webkit-transform:translateY(0%);}
+    80% {opacity:0; -webkit-transform:translateY(100%);}
+    100% {opacity:0; -webkit-transform:translateY(100%);}
 }
 
 /* ---------Arrow buttons ------- */   
