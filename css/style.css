@@ -46,6 +46,26 @@ html, body {
     float:left;
 }
 
+body {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+}
+li {
+  display: table-cell;
+}
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /*#divCenter {
   margin:0px auto;
   width:100%; 
