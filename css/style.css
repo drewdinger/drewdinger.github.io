@@ -1,16 +1,4 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700&subset=latin,cyrillic-ext);
-/*html {
-	background-color: #fff;
-	font-family: 'Roboto Slab', serif;
-	sx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
-	color: #1a1a1a;
-}
-html, body {
-	height: 100%;
-	padding: 0px;
-	margin: 0px;
-}*/
 
 .container {
   width: 90%;
@@ -65,22 +53,3 @@ img {
   width: 100%;
   height: auto;
 }
-
-/*#divCenter {
-  margin:0px auto;
-  width:100%; 
-  height:auto;
-  border:2px solid black;
-  padding:10px;
- 
- }*/
-
- /*#divIDOne {
-     margin-right: 0px;
-     border:1px solid black;
- }*/
-
- /*#divIDTwo {
-   margin-left: 20px;
-   border:1px solid black;
- }*/
